@@ -13,4 +13,8 @@ class DefaultAdditionTest {
 		assertEquals(10, new DefaultAdditionImpl().add(5,5));
 	}
 
+	@Test
+	void test2() {
+		assertEquals(20, new DefaultAdditionImpl().add(15,5));
+	}
 }
