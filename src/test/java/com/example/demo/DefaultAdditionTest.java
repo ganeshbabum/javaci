@@ -30,4 +30,8 @@ class DefaultAdditionTest {
 	void test5() {
 		assertEquals(0, new DefaultAdditionImpl().add(0,0));
 	}
+	@Test
+	void test6() {
+		assertEquals(0, new DefaultAdditionImpl().add(0,0));
+	}
 }
