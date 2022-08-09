@@ -34,4 +34,8 @@ class DefaultAdditionTest {
 	void test6() {
 		assertEquals(0, new DefaultAdditionImpl().add(0,0));
 	}
+	@Test
+	void test7() {
+		assertEquals(0, new DefaultAdditionImpl().add(1,-1));
+	}
 }
